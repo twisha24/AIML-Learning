@@ -59,14 +59,58 @@
 # plt.show()
 
 # scatter plot
+# import matplotlib.pyplot as plt
+# hours = [1,2,3,2,4,5]
+# marks = [20,21,23,12,18,25]
+# plt.scatter(hours,marks)
+# plt.title("Marks distribution according to hours")
+# plt.xlabel("hours")
+# plt.ylabel("marks")
+# plt.show()
+
+# box plot
+# import matplotlib.pyplot as plt
+# salary = [10000,15000,20000,35000,24000,150000]
+# plt.boxplot(salary)
+# plt.title("Salry distribution")
+# plt.show()
+
+# pie chart
+# import matplotlib.pyplot as plt
+# Languages = ["Java","Python","C","C++","Javascript"]
+# Students = [12,15,9,20,25]
+# plt.pie(Students,labels=Languages)
+# plt.show()
+
+# import matplotlib.pyplot as plt
+# Languages = ["Java","Python","C","C++","Javascript"]
+# Students = [12,15,9,20,25]
+# plt.pie(Students,labels=Languages,autopct = "%f1.1%%")
+# plt.show()
+# multiple lines on a graph
+# import matplotlib.pyplot as plt
+# month = ["Jan","Feb","Mar","Apr","May"]
+# sales_2025= [78,89,65,23,45]
+# sales_2026 =[89,25,46,57,79]
+# plt.plot(month,sales_2025,marker="o",label=2025)
+# plt.plot(month,sales_2026,marker="o",label=2026)
+# plt.title("Sales Distribution in 2025 and 2026")
+# plt.xlabel("Month")
+# plt.ylabel("Sales")
+
+# plt.legend()
+# plt.show()
+
+# figure size
 import matplotlib.pyplot as plt
-hours = [1,2,3,2,4,5]
-marks = [20,21,23,12,18,25]
-plt.scatter(hours,marks)
-plt.title("Marks distribution according to hours")
-plt.xlabel("hours")
-plt.ylabel("marks")
+month = ["jan","feb","may","june"]
+sales = [23,45,67,89]
+plt.title("sales distribution")
+plt.plot(month,sales)
+plt.figure(figsize=(10,5))
 plt.show()
+
+
 
 
 
