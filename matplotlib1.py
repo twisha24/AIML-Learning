@@ -102,13 +102,13 @@
 # plt.show()
 
 # figure size
-import matplotlib.pyplot as plt
-month = ["jan","feb","may","june"]
-sales = [23,45,67,89]
-plt.title("sales distribution")
-plt.plot(month,sales)
-plt.figure(figsize=(10,5))
-plt.show()
+# import matplotlib.pyplot as plt
+# month = ["jan","feb","may","june"]
+# sales = [23,45,67,89]
+# plt.title("sales distribution")
+# plt.plot(month,sales)
+# plt.figure(figsize=(10,5))
+# plt.show()
 
 
 
